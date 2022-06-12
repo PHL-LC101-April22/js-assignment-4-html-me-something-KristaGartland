@@ -2,7 +2,7 @@ body {
     display: block;
     width: 100%;
 	max-width: 1024px;
-	margin: 8px auto;
+	margin: 8px;
 	background-color: rgb(218, 164, 134);
 	font-size: 62.5%;
 }
@@ -13,6 +13,13 @@ body {
 
 h2 {
     text-align: center;
+}
+
+header {
+    margin: 8px auto;
+    font-size:.75cm;
+    background-color: rgb(236, 177, 177);
+    padding:25px;
 }
 
 main {
@@ -46,4 +53,8 @@ footer {
 #recipe {
     padding:50px;
     color:white
+}
+
+#mainHeading {
+    color:red
 }
